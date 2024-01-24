@@ -1,0 +1,17 @@
+body {
+    background-color: indigo;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(60, 60, 60);
+    padding: 7px;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    background-color: rgb(98, 98, 98);
+}

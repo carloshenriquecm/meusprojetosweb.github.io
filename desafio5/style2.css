@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("181.jpg") 0px 0px / 30% repeat;
+}
+
+.datilografia {
+    width: 300px;
+    position: relative;
+    left: 63.3%;
+}
+
+h1 {
+    font-family: 'Chilanka', cursive;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Chilanka', cursive;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.textos {
+    width: 850px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    font-size: 29px;
+    background-color: rgba(0, 10, 56, 0.7);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.textos p {
+    margin-top: 10px;
+}
+
+.assinatura {
+    width: 20%;
+    margin: auto;
+    font-style: italic;
+}
+
+.assinatura p {
+    text-align: right;
+}
+
+.voltar {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Chilanka', cursive;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding-right: 60px;
+    margin: 10px;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
+
+.estilos {
+    margin-top: -40px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.estilos a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(40, 51, 100);
+    padding: 5px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+.estilos a:hover {
+    background-color: rgb(54, 74, 161);
+}
+
+.ativo {
+    background-color: rgb(51, 75, 184) !important;
+}
